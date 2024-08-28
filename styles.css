@@ -1,0 +1,738 @@
+html{
+    background-color: black;
+}
+header{
+    display: flex;
+    background-color: #383838;
+    padding: 10px;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "undertalefonte";
+}
+@font-face {
+    font-family: "undertalefonte";
+    src: url(8bitOperatorPlus-Bold.woff);
+}
+nav{
+    width: 100%;
+    height: 100%;
+} 
+li{
+    color: #9b9b9b;
+    height: 35px;
+    width: auto;
+    font: 25px;
+    font-size: 18px;
+    list-style: none;
+    text-shadow: 4px 4px 6px black;
+}
+a{
+    color: #9b9b9b;
+    height: 35px;
+    width: auto;
+    font: 25px;
+    font-size: 18px;
+    list-style: none;
+    text-shadow: 4px 4px 6px black;
+    text-decoration: none;
+}
+ul{
+    display: flex;                 
+    flex-direction: row;
+    justify-content: center;
+    gap: 6%; 
+    align-items: center;          
+    height: 100%;                  
+}
+.flags{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4%;
+}
+.h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+#h2{
+    font-size: 35px;
+}
+h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+#h3{
+    font-size: 40px;
+}
+.plataformas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2%;
+    gap: 20px;
+}
+.plataformbutton{
+    height: 60px;
+    width: 150px;
+    background-color: #383838;
+    border: 1px solid white;
+}
+.plataformbutton:hover{
+    background-color: #585858;
+}
+.imgplatform{
+    height: 30px;
+    width: 120px;
+}
+.divgraycube{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.graycube{
+    width: 825px;
+    height: 950px;
+    background-color: #747474;
+}
+#textocubo1{
+    display: flex;
+    justify-content: end;
+    margin-right: 30%;
+    height: 20px;
+    font-size: 15px;
+}
+.availablebutton{
+    display: flex;
+    justify-content: end;
+    margin-top: 2%;
+    margin-right: 2%;
+    gap: 5px;
+}
+.brandbutton{
+    width: 150px;
+    height: 60px;
+    background-color: #747474;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.brandbutton:hover{
+    background-color: #9e9c9c;
+}
+.storebrand{
+    width: 120px;
+    height: 35px;
+}
+.gamepc{
+    width: 180px;
+    height: 180px;
+}
+.divphy{
+    display: flex;
+    justify-content: end;
+    margin-right: 4%;
+    align-items: center;
+    gap: 16px;
+}
+#phy{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    font-size: 14px;
+}
+.fangamerbutton{
+    width: 250px;
+    height: 80px;
+    background-color: #747474;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+.fangamerbutton:hover{
+    background-color: #9e9c9c;
+}
+.imgfangamer{
+    width: 220px;
+    height: 55px;
+}
+.collector{
+    display: flex;
+    justify-content: center;
+}
+#edition{
+    margin-top: 8%;
+    font-size: 36px;
+}
+.pcedition{
+    display: flex;
+    align-items: center;
+    width: 800px;
+}
+.buttongamerfan{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+#updates{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 0%;
+}
+.updates{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.novidades{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.deltarune2021{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+#nu1{
+    font-size: 35px;
+    height: 40px;
+}
+#nu1-2{
+    font-size: 25px;
+    height: 35px;
+}
+.undertale3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#imgnu{
+    height: 180px;
+}
+#nu2{
+    font-size: 30px;
+    height: 40px;
+}
+#nu2-1{
+    font-size: 16px;    
+}
+.deltarune2020{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.novidades2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.undertaleanniversary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.undertale2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.deltarune1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.divstripeblue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stripeblue{
+    width: 100%;
+    height: 420px;
+    background-color: #243ca4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stripetext{
+    height: 185px;
+}
+#textstripe{
+    font-size: 40px;
+    height: 40px;
+}
+#textstripe2{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+.divdeltalogo{
+    height: 210px;
+}
+.deltalogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 132px;
+}
+.lasttextstripe{
+    height: 200px;
+}
+#lasttextstripe{
+    height: 50px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dog{
+    height: 55px;
+    margin-left: 620px;
+}
+footer{
+    display: flex;
+    background-color: #383838;
+    padding: 10px;
+}
+
+
+.mediaicons{
+    display: flex;
+    margin-right: 600px;
+    gap: 12px;
+}
+.divfootertext{
+    display: flex;
+    margin-left: 435px;
+    gap: 50px;
+}
+.gusttext{
+display: flex;
+font-size: 22px;
+margin-top: 3px;
+}
+.ulitext{
+    display: flex;
+    font-size: 16px;
+    margin-top: 12px;
+}                    
+.red {
+    color: red;
+}
+.white {
+    color: white;
+}
+.yellow {
+    color: yellow;
+}
+
+@media(max-width: 480px){
+    nav{
+        display: none;
+        width: 100%;
+        height: 100%;
+    } 
+    li{
+        color: #9b9b9b;
+        height: 35px;
+        width: auto;
+        font: 25px;
+        font-size: 18px;
+        list-style: none;
+        text-shadow: 4px 4px 6px black;
+    }
+    a{
+        color: #9b9b9b;
+        height: 35px;
+        width: auto;
+        font: 25px;
+        font-size: 18px;
+        list-style: none;
+        text-shadow: 4px 4px 6px black;
+        text-decoration: none;
+    }
+    ul{
+        display: flex;                 
+        flex-direction: row;
+        justify-content: center;
+        gap: 6%; 
+        align-items: center;          
+        height: 100%;                  
+    }
+    .flags{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: 280px;
+    }
+    .logo{
+        height: 35px;
+        margin-top: 2%;
+    }
+    h1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 4%;
+    }
+    .h2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4%;
+    }
+    #h2{
+        font-size: 20px;
+    }
+    h3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4%;
+    }
+    #h3{
+        font-size: 25px;
+    }
+    .plataformas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        justify-content: center;
+        gap: 1px;
+    }
+    .plataformbutton{
+        height: 50px;
+        width: 122px;
+        background-color: #383838;
+        border: 1px solid white;
+    }
+    .plataformbutton:hover{
+        background-color: #585858;
+    }
+    .imgplatform{
+        height: 30px;
+        width: 120px;
+    }
+    .divgraycube{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .graycube{
+        width: 825px;
+        height: 950px;
+        background-color: #747474;
+    }
+    #textocubo1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 490px;
+        font-size: 15px;
+    }
+    .availablebutton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2%;
+        gap: 28px;
+    }
+    .brandbutton{
+        width: 150px;
+        height: 60px;
+        background-color: #747474;
+        border: 3px solid white;
+        border-radius: 10px;
+    }
+    .brandbutton:hover{
+        background-color: #9e9c9c;
+    }
+    .storebrand{
+        width: 120px;
+        height: 35px;
+    }
+    .gamepc{
+        margin-top: 20px;
+        margin-left: 150px;
+        width: 180px;
+        height: 180px;
+    }
+    .divphy{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 70px;
+        align-items: center;
+        gap: 16px;
+    }
+    #phy{
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+        font-size: 14px;
+    }
+    .fangamerbutton{
+        width: 190px;
+        height: 70px;
+        margin-right: 48px;
+        background-color: #747474;
+        border: 3px solid white;
+        border-radius: 10px;
+    }
+    .fangamerbutton:hover{
+        background-color: #9e9c9c;
+    }
+    .imgfangamer{
+        margin-right: 50px;
+        width: 180px;
+        height: 40px;
+    }
+    .collector{
+        display: flex;
+        justify-content: center;
+    }
+    #edition{
+        margin-top: 16%;
+        font-size: 20px;
+    }
+    .pcedition{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 45px;
+        height: 200px;
+        width: 400px;
+    }
+    .buttongamerfan{
+        display: flex;
+        margin-left: 50px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    #updates{
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+        margin-top: 0%;
+    }
+    .updates{
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+    }
+    .novidades{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .deltarune2021{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    #nu1{
+        font-size: 35px;
+        height: 40px;
+    }
+    #nu1-2{
+        font-size: 25px;
+        height: 35px;
+    }
+    .undertale3{
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    #imgnu{
+        height: 180px;
+    }
+    #nu2{
+        font-size: 30px;
+        height: 40px;
+    }
+    #nu2-1{
+        font-size: 16px;    
+    }
+    .deltarune2020{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .novidades2{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .undertaleanniversary{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+    
+    .undertale2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .deltarune1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .divstripeblue{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .stripeblue{
+        width: 100%;
+        height: 320px;
+        background-color: #243ca4;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .stripetext{
+        height: 185px;
+    }
+    #textstripe{
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        width: 100px;
+        height: 30px;
+    }
+    #textstripe2{
+        margin-top: 60px;
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .divdeltalogo{
+        height: 210px;
+    }
+    .deltalogo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 55px;
+    }
+    .lasttextstripe{
+        height: 200px;
+    }
+    #lasttextstripe{
+        margin-top: 10px;
+        height: 30px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .dog{
+        height: 55px;
+        margin-left: 40px;
+    }
+    footer{
+        display: flex;
+        background-color: #383838;
+        padding: 10px;
+    }
+    .mediaicons{
+        display: flex;
+        margin-left: 195px;
+        gap: 5px;
+    }
+    .divfootertext{
+        display: flex;
+    }
+    .gusttext{
+        display: flex;
+        font-size: 22px;
+        margin-top: 3px;
+    }
+    .ulitext{
+        display: flex;
+        font-size: 16px;
+        margin-top: 12px;
+    } 
+}
+@media(max-width: 768px){
+    .dog{
+        height: 60px;
+        margin-left: 310px;
+    }
+    footer{
+        display: flex;
+        background-color: #383838;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .mediaicons{
+        display: flex;
+        margin-left: 400px;
+        gap: 12px;
+    }
+    .divfootertext{
+        display: flex;
+        margin-left: 435px;
+        gap: 50px;
+    }
+    .gusttext{
+        display: flex;
+        font-size: 30px;
+        margin-top: 3px;
+        margin-left: 600px;
+    }
+    .ulitext{
+        display: flex;
+        font-size: 20px;
+        margin-top: 12px;
+
+    }
+}
